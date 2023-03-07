@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 65px;
+
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.logo>h2>img {
+    height: 45px;
+    width: 45px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    
+    font-size: 16px;
+     
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 100;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        background-color: #ffffffc0;
+
+
+        z-index: 100;
+    }
+
+    .menu a {
+        color: #00040F;
+    }
+
+    .menu.show {
+        max-height: 200px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .menu-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-icon i {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .menu-icon.show i:before {
+        content: "\f00d";
+    }
+
+    .menu-icon.show i:after {
+        content: " Close";
+    }
+
+    .menu-icon.show {
+        color: #333;
+        background-color: #fff;
+    }
+
+    .menu-icon.show:hover {
+        color: #fff;
+        background-color: #333;
+    }
+}

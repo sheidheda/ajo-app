@@ -1,0 +1,84 @@
+.nextGen {
+  position: relative;
+  height: 100vh;
+}
+
+.nxt___svg {
+  position: relative;
+
+}
+
+.nxt__content {
+  position: absolute;
+  left: 0;
+  /* adjust this value as needed */
+  top: 0;
+  width: 60%;
+
+  color: white;
+}
+
+.nxt__content1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 65.41px;
+  top: 30vh;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 130%;
+  /* or 101px */
+
+  letter-spacing: 0.01em;
+}
+
+
+
+.nxt__grad {
+  position: absolute;
+  width: 195px;
+  height: 324px;
+  left: -65px;
+  top: 252px;
+
+  background: #FFFFFF;
+  filter: blur(225px);
+
+}
+
+.discImg {
+  position: absolute;
+  width: 50%;
+  left: 65px;
+  top: 149px;
+
+}
+
+
+.gst {
+  position: absolute;
+  width: 20%;
+  left: 45%;
+  top: 15px;
+
+}
+
+.nxt__content2 {
+   
+  width: 59%;
+  height: auto;
+   
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size:2vw;
+  line-height: 170%;
+  /* or 31px */
+
+  margin-top: 10%;
+  color: rgba(255, 255, 255, 0.7);
+}

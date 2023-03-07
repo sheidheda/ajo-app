@@ -1,0 +1,60 @@
+.try {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 970px;
+    height: auto;
+    margin: 65px;
+    padding: 72px 97px;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #5f5e5e -78.47%, #121120 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    object-fit: contain;
+    gap: 40px;
+}
+
+.try button {
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    padding: 19px 33px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-transform: capitalize;
+   z-index: 9999;
+    color: #00040E;
+    border: none;
+}
+
+.tt1 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+
+
+    color: #FFFFFF;
+}
+
+.tt1 p {
+    max-width: 445px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+}

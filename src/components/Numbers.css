@@ -1,0 +1,33 @@
+.Numbers>ul {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 53px */
+
+
+    color: #FFFFFF;
+
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Numbers {
+    padding: 0 5%;
+    object-fit: contain;
+    margin-top: 20%;
+}
+
+.numSpan{
+    font-size: 20.4463px;
+    
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 10px;
+}

@@ -1,0 +1,85 @@
+.EaseControl {
+    display: flex;
+    margin: 65px;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.bill {
+    width: 100%;
+}
+
+.es1 {
+    flex: 1;
+}
+
+.es2 {
+    flex: 1;
+    width: 622px;
+    height: 154px;
+
+    top: 1113px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 240%;
+    /* or 77px */
+
+    letter-spacing: 0.01em;
+    z-index: 9999;
+    color: #FFFFFF;
+}
+
+.es2>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    /* or 31px */
+    width: 470px;
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.es2 div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 50px;
+
+}
+
+.es2 div>svg {
+    cursor: pointer;
+}
+
+.ease__gradient1 {
+    position: absolute;
+    width: 405px;
+    height: 471px;
+    left: 43.93px;
+    top: 1892.44px;
+
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(375px);
+    transform: rotate(176.62deg);
+}
+
+.ease__gradient2 {
+    position: absolute;
+    width: 345px;
+    height: 514px;
+    left: 69.97px;
+    top: 2231.45px;
+
+    background: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+    filter: blur(450px);
+    border-radius: 200px;
+    transform: rotate(156.61deg);
+}

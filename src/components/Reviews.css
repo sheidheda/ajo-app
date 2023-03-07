@@ -1,0 +1,140 @@
+.reviews {
+    margin-top: 20%;
+    color: white;
+    padding: 65px;
+}
+
+.rv1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.rv1 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 170%;
+    /* or 82px */
+
+
+    color: #FFFFFF;
+    width: 470px;
+}
+
+.rv1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+    width: 450px;
+}
+
+.rv2 ul {
+    margin: 65px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.rv2 li {
+    color: rgba(0, 217, 245, 0.6);
+}
+
+.quote {
+
+    font-size: 62px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.revCard {
+    width: 270px;
+    height: 395px;
+    padding: 40px;
+
+}
+
+.revCard p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    width: 290px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar img {
+    width: 48px;
+    height: 48px;
+}
+
+.avatar h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.avatar p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -8%;
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+
+.revCard:hover {
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(0, 225, 255);
+    
+}
+
+
+.rev__gradient{
+    position: absolute;
+width: 436.52px;
+height: 544.07px;
+left: 1084.85px;
+top: 2929px;
+
+background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+filter: blur(325px);
+border-radius: 200px;
+transform: rotate(47.46deg);
+overflow: hidden;
+}

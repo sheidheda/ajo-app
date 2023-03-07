@@ -1,0 +1,43 @@
+.roboHand {
+    position: relative;
+    text-align: center;
+    
+
+
+}
+
+.roboBg {
+    width: 100%;
+
+    object-fit: contain;
+}
+
+
+.animRobo {
+    position: absolute;
+    object-fit: contain;
+    width: 100%;
+    left: 20%;
+    top: -8%;
+
+
+}
+
+.robo__grad {
+    height: 7.4rem;
+    background: linear-gradient(90deg, #F4C4F3 0%, #8a3488 100%);
+    filter: blur(450px);
+ 
+}
+
+.robo__grad2 {
+    position: absolute;
+    width: 345px;
+    height: 514px;
+    left: 1097px;
+    top: -311.95px;
+    background: linear-gradient(90deg, rgba(26, 41, 128, 0.5) 0%, rgba(38, 208, 206, 0.5) 100%);
+    filter: blur(325px);
+    border-radius: 200px;
+    transform: rotate(-67.37deg);
+}
