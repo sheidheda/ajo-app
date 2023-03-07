@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Numbers.css'
-import CountUp from 'react-Countup'
+import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
 function Numbers() {
     const [counterOn, setCounterOn] = useState(false
