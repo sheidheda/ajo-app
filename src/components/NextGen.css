@@ -1,74 +1,80 @@
 .nextGen {
-  position: relative;
-  height: 100vh;
+  
+    overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nxt___svg {
-  position: relative;
-
+  position: absolute;
+  flex: 1;
+  right: 0;
 }
 
 .nxt__content {
-  position: absolute;
-  left: 0;
-  /* adjust this value as needed */
-  top: 0;
-  width: 60%;
-
+  flex: 1;
+ 
   color: white;
+
+ 
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+ 
 }
 
 .nxt__content1 {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  left: 65.41px;
-  top: 30vh;
+  
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 130%;
   /* or 101px */
-
+  
   letter-spacing: 0.01em;
 }
 
-
+.nxt__content1 h1{
+   
+  line-height: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.5vw;
+}
 
 .nxt__grad {
   position: absolute;
-  width: 195px;
-  height: 324px;
-  left: -65px;
-  top: 252px;
-
+  width: 25vw;
+  height: 40vh;
+  left: -20vw;
+  top: 5%;
+  
   background: #FFFFFF;
   filter: blur(225px);
 
 }
 
 .discImg {
-  position: absolute;
-  width: 50%;
-  left: 65px;
-  top: 149px;
+  
+  width: 40%;
 
 }
 
 
 .gst {
   position: absolute;
-  width: 20%;
-  left: 45%;
-  top: 15px;
+  width: 15vw;
+  left: 34%;
+  margin-top: -27%
 
 }
 
 .nxt__content2 {
    
-  width: 59%;
+  width: 50%;
   height: auto;
    
 
@@ -79,6 +85,6 @@
   line-height: 170%;
   /* or 31px */
 
-  margin-top: 10%;
+  margin-top: 5%;
   color: rgba(255, 255, 255, 0.7);
 }

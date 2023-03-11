@@ -2,7 +2,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1vw;
     line-height: 130%;
     /* or 53px */
 
@@ -17,17 +17,27 @@
 }
 
 .Numbers {
-    padding: 0 5%;
+    padding: 0 0;
     object-fit: contain;
     margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 3%;
 }
 
 .numSpan{
-    font-size: 20.4463px;
+    font-size: 2vw;
     
 }
 
 .vl {
     border-left: 2px solid gray;
     height: 10px;
+}
+
+.Numbers>ul>li>h1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 100%;
 }

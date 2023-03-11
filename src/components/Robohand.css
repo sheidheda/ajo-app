@@ -1,14 +1,14 @@
 .roboHand {
     position: relative;
     text-align: center;
+    margin-top: 2rem;
+
     
-
-
 }
 
 .roboBg {
     width: 100%;
-
+    
     object-fit: contain;
 }
 
@@ -17,17 +17,17 @@
     position: absolute;
     object-fit: contain;
     width: 100%;
-    left: 20%;
-    top: -8%;
-
-
+    margin-left: -30%;
+    top: -15%;
+   
+   overflow-x: hidden;
 }
 
 .robo__grad {
     height: 7.4rem;
     background: linear-gradient(90deg, #F4C4F3 0%, #8a3488 100%);
     filter: blur(450px);
- 
+    
 }
 
 .robo__grad2 {

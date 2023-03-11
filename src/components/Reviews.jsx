@@ -19,10 +19,10 @@ function Reviews() {
                             <p>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                             <div className="avatar">
                                 <img src="/assets/people01.png" alt="" />
-                                <div>
+                                <span>
                                     <h3>Bilbo Baggings</h3>
                                     <p>Founder & Leader</p>
-                                </div>
+                                </span>
                             </div>
                         </div>
                     </li>

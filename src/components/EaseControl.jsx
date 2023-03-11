@@ -37,7 +37,7 @@ function EaseControl() {
                     </div>
                     <div className="es2">
 
-                        <h1>Easily control your <br />billing & invoicing.</h1>
+                        <h1>Easily control your  billing & invoicing.</h1>
                         <p>Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
                         <div>
                             <svg width="129" height="43" viewBox="0 0 129 43" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -42,21 +42,15 @@ function NextGen() {
     
 
     return (
-     
-        <div ref={ref} className='nextGen'>
-            <motion.div
-             
-            animate={animation}
-         
-            className="nxt___svg">
-                <RoboHand />
-            </motion.div>
+     <div>
+         <div ref={ref} className='nextGen'>
+            
             <motion.div 
              
             animate={animation2}
              
             className="nxt__content">
-                <div className="nxt__grad" />
+             
                 <img src="/assets/discount.png" className='discImg' alt="" />
 
                 <div className="nxt__content1">
@@ -67,10 +61,20 @@ function NextGen() {
                     <p className="nxt__content2">Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
                         We examine annual percentage rates, annual fees.</p>
                 </div>
-
+                
             </motion.div>
-            
+           
+            <motion.div
+             
+            animate={animation}
+         
+            className="nxt___svg">
+                <RoboHand />
+            </motion.div>
         </div> 
+        <div className="nxt__grad" />
+     </div>
+       
       
     )
 }

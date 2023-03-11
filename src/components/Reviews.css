@@ -1,51 +1,52 @@
 .reviews {
-    margin-top: 20%;
+    margin: 0 10%;
     color: white;
-    padding: 65px;
+    overflow-x: hidden;
+
 }
 
 .rv1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    font-size: 1.5vw;
+    flex-wrap: wrap;
 }
 
 .rv1 h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+
     line-height: 170%;
     /* or 82px */
 
 
     color: #FFFFFF;
-    width: 470px;
+
 }
 
 .rv1 p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+
     line-height: 180%;
     /* or 32px */
 
     letter-spacing: 0.01em;
 
     color: rgba(255, 255, 255, 0.7);
-    width: 450px;
+
 }
 
 .rv2 ul {
-    margin: 65px;
-    padding: 0;
+    margin: 3% 0;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 0.5vw;
     flex-wrap: wrap;
 }
 
@@ -54,49 +55,51 @@
 }
 
 .quote {
-
-    font-size: 62px;
+    margin: 0 0%;
+    font-size: 6vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .revCard {
-    width: 270px;
-    height: 395px;
-    padding: 40px;
+    width: 18vw;
+    height: auto;
+    padding: 5px 6vw;
 
 }
 
-.revCard p {
+.revCard>p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5vw;
     line-height: 180%;
     /* or 32px */
 
     letter-spacing: 0.02em;
-
+    margin-top: -5%;
     color: #FFFFFF;
-    width: 290px;
+    width: 20vw;
 }
 
 .avatar {
     display: flex;
     align-items: center;
+
     gap: 20px;
 }
 
 .avatar img {
-    width: 48px;
-    height: 48px;
+    width: 15%;
+    height: auto;
+    object-fit: contain;
 }
 
 .avatar h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1vw;
+
     color: #FFFFFF;
 }
 
@@ -104,12 +107,12 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    margin-top: -8%;
+    font-size: 1vw;
+
     color: #FFFFFF;
 
     opacity: 0.5;
+    margin-top: -5%;
 }
 
 
@@ -118,23 +121,23 @@
     backdrop-filter: blur(5px);
     /* Note: backdrop-filter has minimal browser support */
 
-    border-radius: 20px;
+    border-radius: 1.5vw;
     cursor: pointer;
     color: rgb(0, 225, 255);
-    
+
 }
 
 
-.rev__gradient{
+.rev__gradient {
     position: absolute;
-width: 436.52px;
-height: 544.07px;
-left: 1084.85px;
-top: 2929px;
+    width: 436.52px;
+    height: 544.07px;
+    left: 1084.85px;
+    top: 2929px;
 
-background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
-filter: blur(325px);
-border-radius: 200px;
-transform: rotate(47.46deg);
-overflow: hidden;
+    background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+    filter: blur(325px);
+    border-radius: 200px;
+    transform: rotate(47.46deg);
+    overflow: hidden;
 }
